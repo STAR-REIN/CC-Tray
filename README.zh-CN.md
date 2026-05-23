@@ -14,9 +14,6 @@ CC-Tray 是一个运行在 Windows 上的轻量托盘应用，用来控制已经
 
 ## 预览
 
-<p align="center">
-  <img src="asset/pic1.jpg" alt="CC-Tray tray icon and menu" width="520">
-</p>
 
 <p align="center">
   <img src="asset/pic2.jpg" alt="CC-Tray language menu" width="520">
