@@ -15,10 +15,6 @@ It does not replace `cc-connect`, configure bot credentials, or run the daemon n
 ## Preview
 
 <p align="center">
-  <img src="asset/pic1.jpg" alt="CC-Tray tray icon and menu" width="520">
-</p>
-
-<p align="center">
   <img src="asset/pic2.jpg" alt="CC-Tray language menu" width="520">
 </p>
 
