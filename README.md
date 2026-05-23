@@ -12,6 +12,12 @@ CC-Tray is a lightweight Windows tray app for controlling an already configured 
 
 It does not replace `cc-connect`, configure bot credentials, or run the daemon natively on Windows.
 
+## Quick Start
+
+Download the latest `CC-Tray.exe` from [Releases](https://github.com/STAR-REIN/CC-Tray/releases/latest) and run it on Windows.
+
+On first launch, open the tray menu, choose the WSL user configuration submenu, and select the WSL distribution/user where `cc-connect` is already installed and configured.
+
 ## Preview
 
 <p align="center">
@@ -96,7 +102,3 @@ You can override the `wsl.exe` path with:
 ```powershell
 $env:CC_CONNECT_WSL_EXE = "C:\Windows\System32\wsl.exe"
 ```
-
-## Release
-
-Generated binaries and build artifacts are ignored by Git. For a GitHub release, build locally and upload `dist-native\CC-Tray.exe` as a release asset instead of committing it.
