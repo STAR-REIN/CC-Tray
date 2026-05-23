@@ -6,7 +6,7 @@
   <img src="logo.png" alt="CC-Tray logo" width="128">
 </p>
 
-CC-Tray is a lightweight Windows tray app for controlling an already configured `cc-connect daemon` running inside WSL.
+CC-Tray is a lightweight Windows tray app for controlling an already configured `cc-connect daemon` running inside WSL. It ships as a single native executable of about 260 KiB.
 
 `cc-connect` itself lives in WSL: install it there, configure its platforms/providers there, and make sure its daemon commands work there. CC-Tray runs on Windows only and provides a small tray menu that calls WSL through `wsl.exe`.
 
@@ -27,6 +27,7 @@ On first launch, open the tray menu, choose the WSL user configuration submenu, 
 ## ✨ Features
 
 - Opens from the Windows tray with left or right click.
+- Single native exe, about 260 KiB.
 - Auto-detects WSL distributions and their default users.
 - Shows daemon state with colored status dots.
 - Installs, starts, restarts, stops, and refreshes `cc-connect daemon`.
