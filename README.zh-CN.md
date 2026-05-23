@@ -6,7 +6,7 @@
   <img src="logo.png" alt="CC-Tray logo" width="128">
 </p>
 
-CC-Tray 是一个运行在 Windows 上的轻量托盘应用，用来控制已经在 WSL 中配置好的 `cc-connect daemon`。
+CC-Tray 是一个运行在 Windows 上的轻量托盘应用，用来控制已经在 WSL 中配置好的 `cc-connect daemon`。它是单文件原生 exe，体积约 260 KiB。
 
 `cc-connect` 本体运行在 WSL 里：请先在 WSL 中安装它、配置好平台和凭据，并确认 daemon 命令可用。CC-Tray 只负责在 Windows 托盘里提供一个小菜单，通过 `wsl.exe` 调用 WSL 里的 `cc-connect daemon`。
 
@@ -27,6 +27,7 @@ CC-Tray 是一个运行在 Windows 上的轻量托盘应用，用来控制已经
 ## ✨ 功能
 
 - 左键或右键点击 Windows 托盘图标打开菜单。
+- 单文件原生 exe，约 260 KiB。
 - 自动检测 WSL 发行版和默认用户。
 - 用彩色状态点显示 daemon 状态。
 - 支持安装、启动、重启、停止和刷新 `cc-connect daemon`。
