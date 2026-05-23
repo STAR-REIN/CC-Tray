@@ -12,8 +12,13 @@ CC-Tray 是一个运行在 Windows 上的轻量托盘应用，用来控制已经
 
 它不会替代 `cc-connect`，不会配置机器人凭据，也不会在 Windows 原生环境里运行 daemon。
 
-## 预览
+## 快速启动
 
+从 [Releases](https://github.com/STAR-REIN/CC-Tray/releases/latest) 下载最新的 `CC-Tray.exe`，然后在 Windows 上直接运行即可。
+
+首次启动后，打开托盘菜单，进入 WSL 用户配置子菜单，选择已经安装并配置好 `cc-connect` 的 WSL 发行版和用户。
+
+## 预览
 
 <p align="center">
   <img src="asset/pic2.jpg" alt="CC-Tray language menu" width="520">
@@ -97,7 +102,3 @@ HKCU\Software\CC-Tray
 ```powershell
 $env:CC_CONNECT_WSL_EXE = "C:\Windows\System32\wsl.exe"
 ```
-
-## 发布
-
-构建产物已被 Git 忽略。发布 GitHub Release 时，请本地构建后上传 `dist-native\CC-Tray.exe`，不要把 exe 直接提交进仓库。
