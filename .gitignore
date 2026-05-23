@@ -1,0 +1,40 @@
+# Build output
+dist*/
+build*/
+bin/
+obj/
+
+# Local binaries and generated diagnostics
+*.exe
+*.dll
+*.pdb
+*.log
+*.tmp
+*.toc
+*.pyz
+*.pkg
+*.spec
+
+# Python prototype leftovers / caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Windows and editor metadata
+*.Zone.Identifier
+*:Zone.Identifier
+*Zone.Identifier
+Thumbs.db
+Desktop.ini
+.DS_Store
+.idea/
+.vscode/
+*.user
+*.suo
+
+# Local configuration
+.env
+.env.*
+*.local
+.github-token
