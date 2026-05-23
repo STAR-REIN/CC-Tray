@@ -1,6 +1,6 @@
-# CC-Tray
+# CC-Tray ✨
 
-中文 | [English](README.md)
+中文 | 🌍 [English](README.md)
 
 <p align="center">
   <img src="logo.png" alt="CC-Tray logo" width="128">
@@ -12,19 +12,19 @@ CC-Tray 是一个运行在 Windows 上的轻量托盘应用，用来控制已经
 
 它不会替代 `cc-connect`，不会配置机器人凭据，也不会在 Windows 原生环境里运行 daemon。
 
-## 快速启动
+## 🚀 快速启动
 
 从 [Releases](https://github.com/STAR-REIN/CC-Tray/releases/latest) 下载最新的 `CC-Tray.exe`，然后在 Windows 上直接运行即可。
 
 首次启动后，打开托盘菜单，进入 WSL 用户配置子菜单，选择已经安装并配置好 `cc-connect` 的 WSL 发行版和用户。
 
-## 预览
+## 🖼️ 预览
 
 <p align="center">
   <img src="asset/pic2.jpg" alt="CC-Tray language menu" width="520">
 </p>
 
-## 功能
+## ✨ 功能
 
 - 左键或右键点击 Windows 托盘图标打开菜单。
 - 自动检测 WSL 发行版和默认用户。
@@ -37,7 +37,7 @@ CC-Tray 是一个运行在 Windows 上的轻量托盘应用，用来控制已经
 
 所有可选功能默认关闭。未配置 WSL 用户时，daemon 控制项会禁用。
 
-## 前置条件
+## ✅ 前置条件
 
 - Windows 10/11。
 - 已安装 WSL 和至少一个 Linux 发行版。
@@ -61,7 +61,7 @@ cc-connect daemon install --work-dir "$HOME/.cc-connect"
 
 如果你需要自定义 work dir 或额外配置，请先在 WSL 中手动完成。
 
-## 从源码运行
+## 🛠️ 从源码运行
 
 在 Windows PowerShell 中运行：
 
@@ -71,7 +71,7 @@ powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\run_tray.ps1
 
 也可以在资源管理器中双击 `run_tray.vbs`。启动器会在需要时构建 `dist-native\CC-Tray.exe`，然后静默启动。
 
-## 构建
+## 📦 构建
 
 ```powershell
 powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\build_exe.ps1
@@ -85,7 +85,7 @@ dist-native\CC-Tray.exe
 
 `logo.png` 会嵌入为托盘图标来源，`logo.ico` 用作 exe 文件图标。
 
-## WSL 用户配置
+## 🌍 WSL 用户配置
 
 首次启动时，CC-Tray 默认未配置用户。打开托盘菜单，进入用户配置子菜单，选择检测到的 WSL 发行版和用户即可。
 
