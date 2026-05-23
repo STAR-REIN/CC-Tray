@@ -1,6 +1,6 @@
-# CC-Tray
+# CC-Tray ✨
 
-[中文](README.zh-CN.md) | English
+🌍 [中文](README.zh-CN.md) | English
 
 <p align="center">
   <img src="logo.png" alt="CC-Tray logo" width="128">
@@ -12,19 +12,19 @@ CC-Tray is a lightweight Windows tray app for controlling an already configured 
 
 It does not replace `cc-connect`, configure bot credentials, or run the daemon natively on Windows.
 
-## Quick Start
+## 🚀 Quick Start
 
 Download the latest `CC-Tray.exe` from [Releases](https://github.com/STAR-REIN/CC-Tray/releases/latest) and run it on Windows.
 
 On first launch, open the tray menu, choose the WSL user configuration submenu, and select the WSL distribution/user where `cc-connect` is already installed and configured.
 
-## Preview
+## 🖼️ Preview
 
 <p align="center">
   <img src="asset/pic2.jpg" alt="CC-Tray language menu" width="520">
 </p>
 
-## Features
+## ✨ Features
 
 - Opens from the Windows tray with left or right click.
 - Auto-detects WSL distributions and their default users.
@@ -37,7 +37,7 @@ On first launch, open the tray menu, choose the WSL user configuration submenu, 
 
 All optional behaviors are disabled by default. If no WSL user is configured, daemon controls are disabled.
 
-## Requirements
+## ✅ Requirements
 
 - Windows 10/11.
 - WSL with a Linux distribution installed.
@@ -61,7 +61,7 @@ cc-connect daemon install --work-dir "$HOME/.cc-connect"
 
 Use WSL directly if you need a custom work directory or extra `cc-connect` setup.
 
-## Run From Source
+## 🛠️ Run From Source
 
 From Windows PowerShell:
 
@@ -71,7 +71,7 @@ powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\run_tray.ps1
 
 Or double-click `run_tray.vbs` from Explorer. The launcher builds `dist-native\CC-Tray.exe` when needed, then starts it silently.
 
-## Build
+## 📦 Build
 
 ```powershell
 powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\build_exe.ps1
@@ -85,7 +85,7 @@ dist-native\CC-Tray.exe
 
 `logo.png` is embedded for the tray icon. `logo.ico` is used as the executable icon.
 
-## WSL User Configuration
+## 🌍 WSL User Configuration
 
 On first launch, CC-Tray starts unconfigured. Open the tray menu, choose the user configuration submenu, and select a detected WSL distribution/user pair.
 
