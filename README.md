@@ -43,8 +43,8 @@ All optional behaviors are disabled by default. If no WSL user is configured, da
 - Windows 10/11.
 - WSL with a Linux distribution installed.
 - `cc-connect` installed and configured inside the selected WSL distribution.
-- .NET Framework runtime for running the app.
-- .NET Framework C# compiler for building from source.
+- .NET Framework runtime for running the app, usually already included with Windows.
+- .NET Framework C# compiler for building from source, usually already available on Windows.
 
 Before using CC-Tray, confirm these commands work in the target WSL user:
 
