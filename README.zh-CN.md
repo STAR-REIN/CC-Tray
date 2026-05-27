@@ -43,8 +43,8 @@ CC-Tray 是一个运行在 Windows 上的轻量托盘应用，用来控制已经
 - Windows 10/11。
 - 已安装 WSL 和至少一个 Linux 发行版。
 - 已在目标 WSL 发行版中安装并配置好 `cc-connect`。
-- 运行程序需要 .NET Framework runtime。
-- 从源码构建需要 .NET Framework C# 编译器。
+- 运行程序需要 .NET Framework runtime，通常 Windows 已经自带。
+- 从源码构建需要 .NET Framework C# 编译器，通常 Windows 已经可用。
 
 使用 CC-Tray 前，请先确认这些命令在目标 WSL 用户下可用：
 
